@@ -1,0 +1,271 @@
+header {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5a25acaf6957da4a9919d928/1531428654834-UFXVOJ71D3L9PPIRAP53/Tatsu+Ramen+in+Lower+Manhattan+%2F+design+by+Studio+Unltd+%2F+artwork+by+Ando+Pndlian');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: orange;
+}
+
+/*HEADER */
+
+header {
+   position: relative;
+}
+
+.navbar > .navbar-background {
+    background: rgba(0, 0, 0, .7 );
+    size-adjust: 15px;
+}
+
+.navbar .links{
+    gap: 3em;
+    width: 100%;
+    height: 80px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pp {
+    position: absolute;
+    display: flex;
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+    left: 4%;
+}
+
+.logo {
+    position: absolute;
+    
+}
+
+
+/* H1 MIDDLE */
+.h1 {
+    display: inline-block;
+    border: 3px solid orange;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    width: 35%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    letter-spacing: 8px;
+    color: white;
+}
+
+
+#p1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+
+
+
+/* BUTTON */
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+.btn_container .btn {
+    padding: 20px 20px;
+   background-color: orange;
+   border: none;
+   outline: none;
+   border-radius: 80px;
+   cursor: pointer;
+   margin-top: 200px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* LOCATION */
+.location {
+    position: fixed;
+    top: 97%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: bold;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 1 );
+}
+
+
+
+
+
+
+
+/* SECOND PAGE */
+
+#h3 {
+    text-align: Center;
+    font-size: 50px;
+    color: orange;
+    height: 25px;
+    padding: 40px;
+}
+
+.ramenpics {
+    text-align: center;
+}
+
+
+.ramenbox{
+    display: inline-block;
+    width: 700px;
+    padding: 70px;
+
+}
+
+.titleramen {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.pramen {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+/* 3rd page */
+
+.thirdpage {
+    height: 100vh;
+    background-color: white;
+    background-image: url('https://images.pexels.com/photos/96931/pexels-photo-96931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.ourramen {
+    text-align: center;
+   background-color: rgb(211, 211, 211);
+}
+
+#ourramen {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    text-decoration: underline;
+}
+
+#ourramenp {
+    display: inline-block;
+
+    border: 5px solid blue;
+    font-size: 20px;
+    width: 40%;
+    margin-bottom: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footercontainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    margin: 0;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+.h3footer {
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
